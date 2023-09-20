@@ -1,2 +1,30 @@
+/* CSS code for the .holder element */
 
-/* Your CSS Code here. */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.holder {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap as needed */
+    padding: 10px;
+    max-width: 100%;
+}
+
+.item {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    min-width: calc(20% - 10px); /* Adjust the width and gap */
+    box-sizing: border-box;
+    border-radius: 5px;
+}
